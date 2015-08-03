@@ -1,0 +1,1 @@
+$('#wrapper').css('background-image', 'url("/assets/img/mountain_background.jpg")');
