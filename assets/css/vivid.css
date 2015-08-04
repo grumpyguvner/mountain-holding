@@ -1,17 +1,17 @@
 /*
 * Primary Color:  (dark blue)
 *   RGB(0,52,77) = #00344d
-* Secondary Color: (medium blue)
-*   RBG(0,86,119) #005677
+* Secondary Color: (yellow)
+*   RBG(202,219,54) #cadb36
 * Tertiary Color: (light blue)
-*   RBG(167,202,211) #a7cad3
+*   RBG(94,145,168) #5e91a8
 * Gray: #75787c
 */
 html {
   height: 100%;
 }
 body {
-  background: #a7cad3;
+  background: #5e91a8;
   font-size: 16px;
   line-height: 1.5em;
   font-family: 'Montserrat', sans-serif;
@@ -23,7 +23,7 @@ body {
   height: 100%;
 }
 a {
-    color: #005677;
+    color: #cadb36;
 }
 a:focus,
 a:active,
@@ -34,11 +34,11 @@ a:hover {
   padding: 0;
   margin: 0;
   min-height: 100%;
-  background: #a7cad3;
+  background: #5e91a8;
 }
 @media (min-width: 768px) {
   #wrapper {
-    background: #a7cad3 url(/assets/img/mountain_background.jpg) no-repeat center center;
+    background: #5e91a8 url(/assets/img/mountain_background.jpg) no-repeat center center;
     background-size: cover;
   }
 }
@@ -84,8 +84,8 @@ a:hover {
 .btn-default:focus,
 .btn-default:hover {
   color: #00344d;
-  background-color: #a7cad3;
-  border-color: #a7cad3;
+  background-color: #5e91a8;
+  border-color: #5e91a8;
 }
 .btn-default[disabled] {
   color: #75787c;

@@ -2,7 +2,7 @@
 * Primary Color:  (dark blue)
 *   RGB(0,52,77) = #00344d
 * Secondary Color: (medium blue)
-*   RBG(0,86,119) #005677
+*   RBG(0,140,255) #008cff
 * Tertiary Color: (light blue)
 *   RBG(167,202,211) #a7cad3
 * Gray: #75787c
@@ -23,7 +23,7 @@ body {
   height: 100%;
 }
 a {
-    color: #005677;
+    color: #008cff;
 }
 a:focus,
 a:active,
