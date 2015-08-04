@@ -38,7 +38,7 @@ a:hover {
 }
 @media (min-width: 768px) {
   #wrapper {
-    background: #a7cad3 url(/assets/img/mountain_background.jpg) no-repeat center center;
+    background: #a7cad3 url(/assets/img/classic_background.jpg) no-repeat center center;
     background-size: cover;
   }
 }
