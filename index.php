@@ -8,6 +8,13 @@ switch ($_SERVER['SERVER_NAME']) {
         $list = "http://newsletters.boundlessmarketing.co.uk/t/j/s/xkhthy/";
         $field = "cm-xkhthy-xkhthy";
         $brands_title = "Our Resorts";
+        $brands = array(
+            1 => array("name" => "Flaine", "url" => ""),
+            2 => array("name" => "La Clusaz", "url" => ""),
+            3 => array("name" => "Morzine", "url" => ""),
+            4 => array("name" => "Les Saises", "url" => ""),
+            5 => array("name" => "Crest Voland", "url" => "")
+        );
         break;
     case "www.vividmountain.com":
         $title = "Vivid Mountain Ski Holidays";
