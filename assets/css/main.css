@@ -178,3 +178,9 @@ footer div ul li:before {
   content: '•';
   width: 20px;
 }
+.credit {
+    font-size: 9px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

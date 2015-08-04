@@ -2,7 +2,7 @@
 switch ($_SERVER['SERVER_NAME']) {
     case "www.classicalpine.com":
         $title = "Classic Alpine Ski Holidays";
-        $subtitle = "Hassle free, care free, high quality holidays for people aged 55 and over that have a love of the mountains and particularly skiing.";
+        $subtitle = "Specialist holidays for active and sociable 50 somethings who love mountains and skiing.";
         $css = "classic.css";
         $logo = "classic";
         $list = "http://newsletters.boundlessmarketing.co.uk/t/j/s/xkhthy/";
@@ -15,6 +15,7 @@ switch ($_SERVER['SERVER_NAME']) {
             4 => array("name" => "Les Saises", "url" => ""),
             5 => array("name" => "Crest Voland", "url" => "")
         );
+        $credit = "David Machet";
         break;
     case "www.vividmountain.com":
         $title = "Vivid Mountain Ski Holidays";
@@ -31,10 +32,11 @@ switch ($_SERVER['SERVER_NAME']) {
             4 => array("name" => "Les Saises", "url" => ""),
             5 => array("name" => "Crest Voland", "url" => "")
         );
+        $credit = "David Machet";
         break;
     default:
         $title = "The Mountain Experience Company";
-        $subtitle = "Niche holiday brands in a mountain environment.";
+        $subtitle = "Specialist holiday brands in a mountain environment.";
         $css = "main.css";
         $logo = "mountain";
         $list = "http://newsletters.boundlessmarketing.co.uk/t/j/s/xkhtll/";
@@ -44,6 +46,7 @@ switch ($_SERVER['SERVER_NAME']) {
             1 => array("name" => "CLASSIC ALPINE", "url" => "http://www.classicalpine.com/"),
             2 => array("name" => "VIVID MOUNTAIN", "url" => "http://www.vividmountain.com/")
         );
+        $credit = false;
         break;
 }
 ?>
@@ -111,6 +114,9 @@ switch ($_SERVER['SERVER_NAME']) {
         </section>
         </div>
         </div>
+        <?php if ($credit) { ?>
+          <div class="credit">Photograph courtesy <?php echo $credit; ?></div>
+        <?php } ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.min.js"><\/script>')</script>
         <script src="/assets/js/main.min.js"></script>
