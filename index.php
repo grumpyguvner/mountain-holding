@@ -17,6 +17,13 @@ switch ($_SERVER['SERVER_NAME']) {
         $list = "http://newsletters.boundlessmarketing.co.uk/t/j/s/xkhthj/";
         $field = "cm-xkhthj-xkhthj";
         $brands_title = "Our Resorts";
+        $brands = array(
+            1 => array("name" => "Flaine", "url" => ""),
+            2 => array("name" => "La Clusaz", "url" => ""),
+            3 => array("name" => "Morzine", "url" => ""),
+            4 => array("name" => "Les Saises", "url" => ""),
+            5 => array("name" => "Crest Voland", "url" => "")
+        );
         break;
     default:
         $title = "The Mountain Experience Company";
